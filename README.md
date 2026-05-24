@@ -5,15 +5,18 @@ A Python-based AI project that analyzes customer reviews and determines sentimen
 The system processes input data (CSV or text), cleans it, and returns sentiment insights such as positive, negative, or neutral feedback, helping understand customer.
 
 🚀 **Features**
+
 📂 Load customer reviews from CSV files or text input
+
 🧠 AI-powered sentiment classification
+
 📊 Clear output of sentiment results (positive / negative / neutral)
+
 ⚡ Fast preprocessing and text cleaning
 
 🧱 **Project Structure**
-ai-reviews-sentiment/
 
-│
+ai-reviews-sentiment/
 
 ├── main.py                  # Main script to run analysis
 
