@@ -12,11 +12,17 @@ The system processes input data (CSV or text), cleans it, and returns sentiment 
 
 🧱 **Project Structure**
 ai-reviews-sentiment/
+
 │
+
 ├── main.py                  # Main script to run analysis
+
 ├── requirements.txt        # Dependencies
+
 ├── .env.           #API key  (Example environment file)
+
 ├── reviews.csv            # Example input data
+
 └── README.md              # Project documentation
 
 ⚙️** Installation & Setup**
@@ -24,26 +30,36 @@ ai-reviews-sentiment/
 **1.** Clone the repository
 git clone https://github.com/ayeletBinder/ai-reviews-sentiment.git
 cd ai-reviews-sentiment
+
 **2.** Create virtual environment (recommended)
 python -m venv venv
 
-**Activate it:
-**
+**Activate it:**
+
 Windows
+
 venv\Scripts\activate
 
 Mac/Linux
+
 source venv/bin/activate
 
 **3.** Install dependencies
+
 pip install -r requirements.txt
+
 **4.** Configure environment variables
-**5.** Run the project
+
+**5.** Run the project:
+
 python main.py
 
 🧠 **Possible Improvements**
+
 Add Streamlit dashboard
+
 Add real-time API (FastAPI / Flask)
+
 Add visual charts (Matplotlib / Plotly)
 
 
